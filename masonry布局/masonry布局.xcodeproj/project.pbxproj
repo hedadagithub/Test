@@ -21,6 +21,7 @@
 		BB5E91901ECBF6E800A478D4 /* OTIS_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5E918E1ECBF6E800A478D4 /* OTIS_1@3x.png */; };
 		BB5E91931ECC193D00A478D4 /* pushModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E91921ECC193D00A478D4 /* pushModel.m */; };
 		BB64C1C51ECAD60F00113E10 /* mainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB64C1C41ECAD60F00113E10 /* mainTableViewCell.m */; };
+		BB8FD05F1ED6E148001FDF28 /* NSObject+NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD05E1ED6E148001FDF28 /* NSObject+NSObject.m */; };
 		BB99531F1ECA8C6300FA2D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB99531E1ECA8C6300FA2D60 /* main.m */; };
 		BB9953221ECA8C6300FA2D60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9953211ECA8C6300FA2D60 /* AppDelegate.m */; };
 		BB9953251ECA8C6300FA2D60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9953241ECA8C6300FA2D60 /* ViewController.m */; };
@@ -78,6 +79,8 @@
 		BB5E91921ECC193D00A478D4 /* pushModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pushModel.m; sourceTree = "<group>"; };
 		BB64C1C31ECAD60F00113E10 /* mainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTableViewCell.h; sourceTree = "<group>"; };
 		BB64C1C41ECAD60F00113E10 /* mainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTableViewCell.m; sourceTree = "<group>"; };
+		BB8FD05D1ED6E148001FDF28 /* NSObject+NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSObject.h"; sourceTree = "<group>"; };
+		BB8FD05E1ED6E148001FDF28 /* NSObject+NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSObject.m"; sourceTree = "<group>"; };
 		BB99531A1ECA8C6300FA2D60 /* masonry布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "masonry布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB99531E1ECA8C6300FA2D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB9953201ECA8C6300FA2D60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -212,6 +215,8 @@
 				BB53F9861ECAF34700F5F984 /* mainCollectionViewCell.m */,
 				BB53F9881ECAF79F00F5F984 /* mainView.h */,
 				BB53F9891ECAF79F00F5F984 /* mainView.m */,
+				BB8FD05D1ED6E148001FDF28 /* NSObject+NSObject.h */,
+				BB8FD05E1ED6E148001FDF28 /* NSObject+NSObject.m */,
 				BB53F98B1ECAF7B300F5F984 /* mainView.xib */,
 				BB9953261ECA8C6300FA2D60 /* Main.storyboard */,
 				BB9953291ECA8C6300FA2D60 /* Assets.xcassets */,
@@ -446,6 +451,7 @@
 				BB53F9871ECAF34700F5F984 /* mainCollectionViewCell.m in Sources */,
 				BBBAFFD31ECD6CE3009B7129 /* FMDBManager.m in Sources */,
 				BBBAFFD01ECD3E69009B7129 /* StudentModel.m in Sources */,
+				BB8FD05F1ED6E148001FDF28 /* NSObject+NSObject.m in Sources */,
 				BB5E91871ECBF08F00A478D4 /* pushTableViewCell.m in Sources */,
 				BB53F98A1ECAF79F00F5F984 /* mainView.m in Sources */,
 				BB9953251ECA8C6300FA2D60 /* ViewController.m in Sources */,
