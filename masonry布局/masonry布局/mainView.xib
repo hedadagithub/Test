@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="si2-bY-WZ5" customClass="mainView">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpo-pB-6oj">
+                    <rect key="frame" x="133.5" y="5" width="50" height="30"/>
+                    <color key="backgroundColor" red="0.0045115601099698704" green="0.004983525361179986" blue="0.020887305699481828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="COx-nv-yH5"/>
+                        <constraint firstAttribute="height" constant="30" id="JCV-eT-zT5"/>
+                    </constraints>
+                    <state key="normal" title="扫一扫">
+                        <color key="titleColor" red="0.62790227480000005" green="1" blue="0.99568685729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="saoClick:" destination="si2-bY-WZ5" eventType="touchUpInside" id="W6c-uU-Zab"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.21599531193158117" green="0.23859110566393527" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Tpo-pB-6oj" firstAttribute="centerY" secondItem="si2-bY-WZ5" secondAttribute="centerY" id="ABJ-Qd-vmC"/>
+                <constraint firstItem="Tpo-pB-6oj" firstAttribute="centerX" secondItem="si2-bY-WZ5" secondAttribute="centerX" id="q5K-I7-Kyd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contact" destination="COx-nv-yH5" id="dgU-wN-lmv"/>
+                <outlet property="saoBtn" destination="Tpo-pB-6oj" id="C7f-Xb-EZI"/>
+            </connections>
+            <point key="canvasLocation" x="103" y="114"/>
+        </view>
+    </objects>
+</document>

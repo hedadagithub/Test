@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4yV-Ks-SY5">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOq-0g-hLa">
+                            <rect key="frame" x="20" y="10" width="45" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="hqA-ZP-I9y"/>
+                            </constraints>
+                            <state key="normal" title="返回">
+                                <color key="titleColor" red="0.84648711919999997" green="0.39340745220000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="backClick:" destination="-1" eventType="touchUpInside" id="g1p-Ql-xMe"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.21599531189999999" green="0.2385911057" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="JEY-VR-Jzc"/>
+                        <constraint firstAttribute="bottom" secondItem="uOq-0g-hLa" secondAttribute="bottom" constant="10" id="Os4-9t-9ZJ"/>
+                        <constraint firstItem="uOq-0g-hLa" firstAttribute="leading" secondItem="4yV-Ks-SY5" secondAttribute="leading" constant="20" id="lq5-8g-As5"/>
+                        <constraint firstItem="uOq-0g-hLa" firstAttribute="top" secondItem="4yV-Ks-SY5" secondAttribute="top" constant="10" id="w3U-s9-NY8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.77767583541172991" green="0.79051920854573487" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4yV-Ks-SY5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7L7-rM-LHz"/>
+                <constraint firstAttribute="trailing" secondItem="4yV-Ks-SY5" secondAttribute="trailing" id="KgR-MW-wO3"/>
+                <constraint firstItem="4yV-Ks-SY5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SBS-h2-Ye4"/>
+            </constraints>
+            <point key="canvasLocation" x="-71" y="122"/>
+        </view>
+    </objects>
+</document>
